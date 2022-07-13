@@ -22,7 +22,7 @@ import org.apache.activemq.artemis.api.core.client.*;
 
 public class ProducerExample {
 
-    static final int COUNT_THRESHOLD = 1000;
+    static final int COUNT_THRESHOLD = 1;
 
     public static void main(final String[] args) throws Exception {
         ServerLocator locator = ActiveMQClient.createServerLocator("tcp://127.0.0.1:61616");
